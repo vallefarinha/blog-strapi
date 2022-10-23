@@ -2,7 +2,7 @@ module.exports ={
   routes: [
       {
           method: 'GET',
-          path: '/posts/?populate=*&count',
+          path: '/posts/count',
           handler: 'post.count',
       },
   ]
